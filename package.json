@@ -8,6 +8,7 @@
     "start": "ng serve",
     "build": "ng build",
     "android": "ionic build && npx cap sync android && npx cap open android",
+    "ios": "ionic build && npx cap sync ios && npx cap open ios",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"
@@ -26,6 +27,7 @@
     "@capacitor/app": "6.0.0",
     "@capacitor/core": "6.0.0",
     "@capacitor/haptics": "6.0.0",
+    "@capacitor/ios": "^6.0.0",
     "@capacitor/keyboard": "6.0.0",
     "@capacitor/live-updates": "^0.2.1",
     "@capacitor/status-bar": "6.0.0",
